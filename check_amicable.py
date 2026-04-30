@@ -1,8 +1,11 @@
 def check_amicable(num):
     count = 0
+    proper_divisors = []
     for n in range(1,num):
         if num%n==0:
+            proper_divisors.append(n)
             count += n
+    print(proper_divisors)
     return count
             
         
