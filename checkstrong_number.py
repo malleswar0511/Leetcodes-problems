@@ -14,9 +14,5 @@ def check_strong_number(num):
         print(f"{num} is a strong number")
     else:
         print(f"{num} is a Not strong number")
-    
-    
-    
-
 n = 145
 check_strong_number(n)
