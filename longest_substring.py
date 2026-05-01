@@ -9,7 +9,6 @@ def length_longest_substring(s):
             left = seen[char] + 1
         seen[char] = right
         max_len = max(max_len, right - left + 1)
-
     return max_len
 
 # Tests
