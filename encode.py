@@ -7,7 +7,7 @@ def encode(msg):
         if msg[i]==msg[i-1]:
             count += 1
         else:
-            result.append( msg[i-1]+str(count))
+            result.append( msg[i-1]+str(count)) 
             count = 1
 
     result.append(msg[-1]+str(count))
