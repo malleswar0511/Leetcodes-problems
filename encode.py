@@ -10,6 +10,6 @@ def encode(msg):
             result.append( msg[i-1]+str(count))
             count = 1
 
-    result.append(msg[i-1]+str(count))
+    result.append(msg[-1]+str(count))
     return "".join(result)
-print(encode("AAAABBCCDAA"))
+print(encode("AAAABBCCDA"))
